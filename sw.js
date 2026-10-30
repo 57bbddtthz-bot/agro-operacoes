@@ -1,4 +1,4 @@
-const CACHE='agro-operacoes-v5-final';
+const CACHE='agro-operacoes-v6-loginfix';
 const ASSETS=['./','./index.html','./style.css','./app.js','./modulos.js','./menu.js','./manifest.json'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE);
